@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <head>
+
     <link rel="stylesheet" href="~/css/AC-Documentacion.css" asp-append-version="true" />
     <link rel="stylesheet" href="/css/JC-Memoriales.css" asp-append-version="true" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,407 +13,377 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 
-<div class="container py-3">
+<body>
 
-    <div class="bg-white border rounded-4 shadow-sm p-4">
+    <html>
+    <div class="container py-3">
 
-        <!-- TÍTULO -->
-        <div class="d-flex align-items-center justify-content-between mb-4 border-bottom pb-3">
-            <h4 class="fw-bold text-uppercase mb-0">
-                Liquidación de Activo Extraordinario
-            </h4>
+        <div class="bg-white border rounded-4 shadow-sm p-4">
 
-            <span class="badge text-bg-dark px-3 py-2 rounded-pill">
-                Formulario
-            </span>
-        </div>
+            <!-- TÍTULO -->
+            <div class="d-flex align-items-center justify-content-between mb-4 border-bottom pb-3">
+                <h4 class="fw-bold text-uppercase mb-0">
+                    Liquidación de Activo Extraordinario
+                </h4>
 
-        <!-- SECCIÓN 1 -->
-        <div class="row g-4 mb-4">
+                <span class="badge text-bg-dark px-3 py-2 rounded-pill">
+                    Formulario
+                </span>
+            </div>
 
-            <div class="col-md-6">
+            <!-- SECCIÓN 1 -->
+            <div class="row g-4 mb-4">
 
-                <div class="card border-0 bg-light-subtle rounded-4 shadow-sm">
-                    <div class="card-body">
+                <div class="col-md-6">
 
-                        <h6 class="fw-bold text-uppercase text-secondary mb-3">
-                            Información General
-                        </h6>
+                    <div class="card border-0 bg-light-subtle rounded-4 shadow-sm">
+                        <div class="card-body">
 
-                        <div class="row g-3">
+                            <h6 class="fw-bold text-uppercase text-secondary mb-3">
+                                Información General
+                            </h6>
 
-                            <div class="col-md-6">
-                                <label class="form-label small fw-semibold">
-                                    No.
-                                </label>
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="no">
-                            </div>
+                            <div class="row g-3">
 
-                            <div class="col-md-6">
-                                <label class="form-label small fw-semibold">
-                                    Caso
-                                </label>
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="caso">
-                            </div>
+                                <div class="col-md-6">
+                                    <label class="form-label small fw-semibold">
+                                        No.
+                                    </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3" id="no">
+                                </div>
 
-                            <div class="col-md-6">
-                                <label class="form-label small fw-semibold">
-                                    Crédito
-                                </label>
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="credito">
-                            </div>
+                                <div class="col-md-6">
+                                    <label class="form-label small fw-semibold">
+                                        Caso
+                                    </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3" id="caso">
+                                </div>
 
-                            <div class="col-md-6">
-                                <label class="form-label small fw-semibold">
-                                    CUA
-                                </label>
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="cua">
+                                <div class="col-md-6">
+                                    <label class="form-label small fw-semibold">
+                                        Crédito
+                                    </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3" id="credito">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label small fw-semibold">
+                                        CUA
+                                    </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3" id="cua">
+                                </div>
+
                             </div>
 
                         </div>
-
                     </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="card border-0 bg-dark text-white rounded-4 shadow-sm h-100">
+                        <div class="card-body">
+
+                            <h6 class="fw-bold text-uppercase mb-3">
+                                Motivos y Transacción
+                            </h6>
+
+                            <textarea class="form-control form-control-sm rounded-3" rows="7"
+                                placeholder="Ingrese observaciones o detalles..."></textarea>
+
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
 
-            <div class="col-md-6">
+            <!-- SECCIÓN 2 -->
+            <div class="row g-4 mb-4">
 
-                <div class="card border-0 bg-dark text-white rounded-4 shadow-sm h-100">
-                    <div class="card-body">
+                <div class="col-md-6">
 
-                        <h6 class="fw-bold text-uppercase mb-3">
-                            Motivos y Transacción
-                        </h6>
+                    <div class="card border-0 rounded-4 shadow-sm">
+                        <div class="card-body">
 
-                        <textarea class="form-control form-control-sm rounded-3"
-                                  rows="7"
-                                  placeholder="Ingrese observaciones o detalles..."></textarea>
+                            <h6 class="fw-bold text-uppercase text-secondary mb-3">
+                                Montos
+                            </h6>
 
-                    </div>
-                </div>
+                            <div class="row g-3">
 
-            </div>
+                                <div class="col-md-6">
+                                    <label class="form-label small fw-semibold">
+                                        Principal total
+                                    </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3"
+                                        id="principal_total">
+                                </div>
 
-        </div>
+                                <div class="col-md-6">
+                                    <label class="form-label small fw-semibold">
+                                        Interés principal
+                                    </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3"
+                                        id="interes_principal_d">
+                                </div>
 
-        <!-- SECCIÓN 2 -->
-        <div class="row g-4 mb-4">
+                                <div class="col-md-6">
+                                    <label class="form-label small fw-semibold">
+                                        Interés penalizado
+                                    </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3"
+                                        id="interes_penalizado">
+                                </div>
 
-            <div class="col-md-6">
+                                <div class="col-md-6">
+                                    <label class="form-label small fw-semibold">
+                                        Honorarios
+                                    </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3" id="honorarios">
+                                </div>
 
-                <div class="card border-0 rounded-4 shadow-sm">
-                    <div class="card-body">
+                                <div class="col-12">
+                                    <label class="form-label small fw-semibold">
+                                        Total
+                                    </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3 fw-bold"
+                                        id="total">
+                                </div>
 
-                        <h6 class="fw-bold text-uppercase text-secondary mb-3">
-                            Montos
-                        </h6>
-
-                        <div class="row g-3">
-
-                            <div class="col-md-6">
-                                <label class="form-label small fw-semibold">
-                                    Principal total
-                                </label>
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="principal_total">
-                            </div>
-
-                            <div class="col-md-6">
-                                <label class="form-label small fw-semibold">
-                                    Interés principal
-                                </label>
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="interes_principal_d">
-                            </div>
-
-                            <div class="col-md-6">
-                                <label class="form-label small fw-semibold">
-                                    Interés penalizado
-                                </label>
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="interes_penalizado">
-                            </div>
-
-                            <div class="col-md-6">
-                                <label class="form-label small fw-semibold">
-                                    Honorarios
-                                </label>
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="honorarios">
-                            </div>
-
-                            <div class="col-12">
-                                <label class="form-label small fw-semibold">
-                                    Total
-                                </label>
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3 fw-bold"
-                                       id="total">
                             </div>
 
                         </div>
-
                     </div>
+
                 </div>
 
-            </div>
+                <div class="col-md-6">
 
-            <div class="col-md-6">
+                    <div class="card border-0 rounded-4 shadow-sm">
+                        <div class="card-body">
 
-                <div class="card border-0 rounded-4 shadow-sm">
-                    <div class="card-body">
+                            <h6 class="fw-bold text-uppercase text-secondary mb-3">
+                                Aplicaciones
+                            </h6>
 
-                        <h6 class="fw-bold text-uppercase text-secondary mb-3">
-                            Aplicaciones
-                        </h6>
+                            <div class="row g-3">
 
-                        <div class="row g-3">
+                                <div class="col-12">
+                                    <label class="form-label small fw-semibold">
+                                        Pago préstamo local
+                                    </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3"
+                                        id="pago_prestamo">
+                                </div>
 
-                            <div class="col-12">
-                                <label class="form-label small fw-semibold">
-                                    Pago préstamo local
-                                </label>
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="pago_prestamo">
-                            </div>
+                                <div class="col-12">
+                                    <label class="form-label small fw-semibold">
+                                        Servicios profesionales
+                                    </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3"
+                                        id="ser_profesionales">
+                                </div>
 
-                            <div class="col-12">
-                                <label class="form-label small fw-semibold">
-                                    Servicios profesionales
-                                </label>
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="ser_profesionales">
-                            </div>
+                                <div class="col-12">
+                                    <label class="form-label small fw-semibold">
+                                        GTQ — Cuenta interna
+                                    </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3"
+                                        id="gtq_cuenta_interna_1">
+                                </div>
 
-                            <div class="col-12">
-                                <label class="form-label small fw-semibold">
-                                    GTQ — Cuenta interna
-                                </label>
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="gtq_cuenta_interna_1">
                             </div>
 
                         </div>
-
                     </div>
+
                 </div>
 
             </div>
 
-        </div>
+            <!-- SECCIÓN 3 -->
+            <div class="row g-4 mb-4">
 
-        <!-- SECCIÓN 3 -->
-        <div class="row g-4 mb-4">
+                <div class="col-md-6">
 
-            <div class="col-md-6">
+                    <div class="card border-0 rounded-4 shadow-sm h-100">
+                        <div class="card-body">
 
-                <div class="card border-0 rounded-4 shadow-sm h-100">
-                    <div class="card-body">
+                            <h6 class="fw-bold text-uppercase text-secondary mb-3">
+                                Cesión
+                            </h6>
 
-                        <h6 class="fw-bold text-uppercase text-secondary mb-3">
-                            Cesión
-                        </h6>
+                            <label class="form-label small fw-semibold">
+                                Cede propiedad
+                            </label>
 
-                        <label class="form-label small fw-semibold">
-                            Cede propiedad
-                        </label>
+                            <input type="text" class="form-control form-control-sm rounded-3" id="cede_propiedad">
 
-                        <input type="text"
-                               class="form-control form-control-sm rounded-3"
-                               id="cede_propiedad">
-
+                        </div>
                     </div>
+
                 </div>
 
-            </div>
+                <div class="col-md-6">
 
-            <div class="col-md-6">
+                    <div class="card border-0 rounded-4 shadow-sm">
+                        <div class="card-body">
 
-                <div class="card border-0 rounded-4 shadow-sm">
-                    <div class="card-body">
+                            <h6 class="fw-bold text-uppercase text-secondary mb-3">
+                                Retiro
+                            </h6>
 
-                        <h6 class="fw-bold text-uppercase text-secondary mb-3">
-                            Retiro
-                        </h6>
+                            <div class="row g-3">
 
-                        <div class="row g-3">
+                                <div class="col-12">
+                                    <label class="form-label small fw-semibold">
+                                        Retiro
+                                    </label>
 
-                            <div class="col-12">
-                                <label class="form-label small fw-semibold">
-                                    Retiro
-                                </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3" id="retiro">
+                                </div>
 
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="retiro">
-                            </div>
+                                <div class="col-12">
+                                    <label class="form-label small fw-semibold">
+                                        GTQ — Cuenta interna
+                                    </label>
 
-                            <div class="col-12">
-                                <label class="form-label small fw-semibold">
-                                    GTQ — Cuenta interna
-                                </label>
+                                    <input type="text" class="form-control form-control-sm rounded-3"
+                                        id="gtq_cuenta_interna_2">
+                                </div>
 
-                                <input type="text"
-                                       class="form-control form-control-sm rounded-3"
-                                       id="gtq_cuenta_interna_2">
                             </div>
 
                         </div>
-
                     </div>
+
                 </div>
 
             </div>
 
-        </div>
+            <!-- TABLAS -->
+            <div class="row g-4">
 
-        <!-- TABLAS -->
-        <div class="row g-4">
+                <div class="col-md-6">
 
-            <div class="col-md-6">
+                    <div class="card border-0 rounded-4 shadow-sm">
+                        <div class="card-body">
 
-                <div class="card border-0 rounded-4 shadow-sm">
-                    <div class="card-body">
+                            <h6 class="fw-bold text-uppercase text-secondary mb-3">
+                                Avalúos
+                            </h6>
 
-                        <h6 class="fw-bold text-uppercase text-secondary mb-3">
-                            Avalúos
-                        </h6>
+                            <div class="table-responsive">
 
-                        <div class="table-responsive">
+                                <table class="table table-sm align-middle">
 
-                            <table class="table table-sm align-middle">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th>No. de avalúo</th>
+                                            <th>Valor</th>
+                                        </tr>
+                                    </thead>
 
-                                <thead class="table-dark">
-                                    <tr>
-                                        <th>No. de avalúo</th>
-                                        <th>Valor</th>
-                                    </tr>
-                                </thead>
+                                    <tbody>
 
-                                <tbody>
+                                        <tr>
+                                            <td>
+                                                <input type="text" class="form-control form-control-sm rounded-3">
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control form-control-sm rounded-3">
+                                            </td>
+                                        </tr>
 
-                                    <tr>
-                                        <td>
-                                            <input type="text"
-                                                   class="form-control form-control-sm rounded-3">
-                                        </td>
-                                        <td>
-                                            <input type="text"
-                                                   class="form-control form-control-sm rounded-3">
-                                        </td>
-                                    </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="text" class="form-control form-control-sm rounded-3">
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control form-control-sm rounded-3">
+                                            </td>
+                                        </tr>
 
-                                    <tr>
-                                        <td>
-                                            <input type="text"
-                                                   class="form-control form-control-sm rounded-3">
-                                        </td>
-                                        <td>
-                                            <input type="text"
-                                                   class="form-control form-control-sm rounded-3">
-                                        </td>
-                                    </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="text" class="form-control form-control-sm rounded-3">
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control form-control-sm rounded-3">
+                                            </td>
+                                        </tr>
 
-                                    <tr>
-                                        <td>
-                                            <input type="text"
-                                                   class="form-control form-control-sm rounded-3">
-                                        </td>
-                                        <td>
-                                            <input type="text"
-                                                   class="form-control form-control-sm rounded-3">
-                                        </td>
-                                    </tr>
+                                    </tbody>
 
-                                </tbody>
+                                </table>
 
-                            </table>
+                            </div>
 
                         </div>
-
                     </div>
+
                 </div>
 
-            </div>
+                <div class="col-md-6">
 
-            <div class="col-md-6">
+                    <div class="card border-0 rounded-4 shadow-sm">
+                        <div class="card-body">
 
-                <div class="card border-0 rounded-4 shadow-sm">
-                    <div class="card-body">
+                            <h6 class="fw-bold text-uppercase text-secondary mb-3">
+                                Propietarios anteriores
+                            </h6>
 
-                        <h6 class="fw-bold text-uppercase text-secondary mb-3">
-                            Propietarios anteriores
-                        </h6>
+                            <div class="table-responsive">
 
-                        <div class="table-responsive">
+                                <table class="table table-sm align-middle">
 
-                            <table class="table table-sm align-middle">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th>Propietario</th>
+                                            <th>Valor</th>
+                                        </tr>
+                                    </thead>
 
-                                <thead class="table-dark">
-                                    <tr>
-                                        <th>Propietario</th>
-                                        <th>Valor</th>
-                                    </tr>
-                                </thead>
+                                    <tbody>
 
-                                <tbody>
+                                        <tr>
+                                            <td>
+                                                <input type="text" class="form-control form-control-sm rounded-3">
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control form-control-sm rounded-3">
+                                            </td>
+                                        </tr>
 
-                                    <tr>
-                                        <td>
-                                            <input type="text"
-                                                   class="form-control form-control-sm rounded-3">
-                                        </td>
-                                        <td>
-                                            <input type="text"
-                                                   class="form-control form-control-sm rounded-3">
-                                        </td>
-                                    </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="text" class="form-control form-control-sm rounded-3">
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control form-control-sm rounded-3">
+                                            </td>
+                                        </tr>
 
-                                    <tr>
-                                        <td>
-                                            <input type="text"
-                                                   class="form-control form-control-sm rounded-3">
-                                        </td>
-                                        <td>
-                                            <input type="text"
-                                                   class="form-control form-control-sm rounded-3">
-                                        </td>
-                                    </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="text" class="form-control form-control-sm rounded-3">
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control form-control-sm rounded-3">
+                                            </td>
+                                        </tr>
 
-                                    <tr>
-                                        <td>
-                                            <input type="text"
-                                                   class="form-control form-control-sm rounded-3">
-                                        </td>
-                                        <td>
-                                            <input type="text"
-                                                   class="form-control form-control-sm rounded-3">
-                                        </td>
-                                    </tr>
+                                    </tbody>
 
-                                </tbody>
+                                </table>
 
-                            </table>
+                            </div>
 
                         </div>
-
                     </div>
+
                 </div>
 
             </div>
@@ -422,7 +391,6 @@
         </div>
 
     </div>
-
-</div>
 </body>
+
 </html>
